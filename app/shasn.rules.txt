@@ -1,0 +1,574 @@
+# SHASN Consolidated Rulebook
+
+## Introduction
+
+You are a politician in the middle of a heated election. Prepare to make tough policy decisions, earn and manage resources and voters, adapt to the changing news landscape, and find yourself in constant stages of negotiation and sabotage. Experience the short-term and long-term pressures of decision making and be alert to the constantly shifting balance of power.
+
+As you progress, you must choose between sticking to your ideals or doing what is necessary to win. Build your ideology with every stand that you take; trade, coerce and strategize your way to victory.
+
+## Game Contents
+
+### What's in the Box
+- 1 Double-Sided Gameboard
+- 4-5 Player Mats
+- 50-60 Voter Tokens per player (referred to as pegs in some versions)
+- 120 Resources (54 tokens per player in some versions)
+- 108 Ideology Cards
+- 20 Headline Cards
+- 20-60 Voter/Vote Bank Cards
+- 20-60 Conspiracy Cards
+- 14 Zone Requirement Cards (in some versions)
+- HQ Mat (in some versions)
+- 1 Public Reserve Box
+- 4 Ideologue Characters
+- 5 Player Reference Cards (in some versions)
+- 1 Ideology Cards Box
+
+**Additional components in some versions:**
+- 12 Special Characters
+- 1 Scenario Book
+- 10 Hidden Objective Cards
+- 10 Incumbent (Legacy Mode) Cards
+- 1 Incumbent (Legacy Mode) Tracker Book
+- 1 'What Does Your SHASN Look Like?' Handbook
+
+## Overview
+
+As a politician in SHASN, you must answer political dilemmas, manage resources, build ideologies, influence voters and form majorities. Players can also forge alliances, scheme and conspire, and negotiate with their political rivals.
+
+### Objective
+The game ends when majorities have been formed in all zones. The player with the most majority voters wins.
+
+## Setup
+
+- Each player selects a player mat and its corresponding bag of voters.
+- All players vote to determine who starts as player one. In case of a tie, vote again. Players cannot vote for themselves.
+- Player 1 receives any 1 resource of their choice, Player 2 receives any 2 resources, Player 3 receives any 3 resources, Player 4 receives any 4 resources, and Player 5 (if playing) receives any 5 resources from the Public Reserve. *(Designer's Note - This is to offset the Player 1 advantage)*
+- Select a campaign. You may remove any Ideology Cards based on Content Advisory if desired.
+- Shuffle the campaign's corresponding decks of Ideology Cards, Conspiracy Cards, and Headline Cards.
+- After all players have received their resources, shuffle the deck of Vote Bank/Voter Cards and open the top three cards on the HQ Mat/board.
+
+## Gameplay Overview
+
+### Order of Turn
+
+- Turns are in clockwise order. At the start of a player's turn, the player on their right draws a card from the deck of Ideology Cards and reads it aloud to them.
+- Players begin their turn by answering an Ideology Card.
+- They receive the corresponding resources from it and any other resources they earn from passive Ideologue Powers.
+- Each player has a resource cap of 12. Before taking any other actions, players have to choose and discard any excess resources down to 12.
+
+Players can take the remaining actions in their turn in any order:
+- Spend resources to influence voters from open Vote Bank/Voter Cards.
+- Form majorities by influencing more than half the voters in a zone.
+- Buy or use Conspiracy Cards - these can be used immediately or saved for later.
+- Trade resources and Conspiracy Cards amongst each other.
+- Gerrymander voters if applicable.
+- Trigger Headline Cards if applicable.
+- Form or collapse coalitions in their turn (in some versions).
+- A player ends their turn by drawing and reading an Ideology Card for the next player.
+
+## Ideology Cards
+
+These Ideology Cards pose contemporary policy questions with a different answer on each side, yielding a separate set of resources. The player reading out the Ideology Card must hide these resources.
+
+During their turn, the player must choose between the two available answers, depending on their needs and beliefs. After confirming their answer, they repeat it aloud and keep the Ideology Card under their Player Mat with the answer face-up. They receive the corresponding resources from the Public Resource Box. The resources of each answer should not be revealed to the player until they have locked their answer.
+
+Each answer also corresponds to a political ideology, indicated by the colored band at the bottom of the card. You will build ideologies over the course of the game and unlock exciting powers.
+
+## Resources
+
+The game uses four types of resources:
+
+- **Campaign Funds**: If there is a profit to be made, someone's making it. Earn the support and funds of industry giants by promising business-friendly practices and creating market demand through your policies.
+- **Street Clout**: If politics is a numbers game, leaders that appeal to the majority set themselves up for success. Accumulate clout quickly by tending to populist sentiments and engaging in identity politics.
+- **Media Attention**: In an era of media saturation, it is vital for politicians to maximise visibility in the public eye. If you choose to baffle, entertain and outrage with your words, you will earn lots of media attention.
+- **Public Trust**: Intention matters. When you seek to create a world where all can engage in the pursuit of happiness, regardless of who they are, where they come from, or the pragmatism of change, you will earn people's trust.
+
+All four resources are equally important and are used to influence voters, buy Conspiracies, and take special actions.
+
+## Resource Trading and Cap
+
+- Players must earn resources to influence Vote Bank/Voter Cards. They get resources from Ideology Cards and Ideologue Powers.
+- Players have a resource cap of 12. Any additional resources over 12 must be discarded before a player can continue with their turn. A player can choose which excess resources to discard.
+- Players can trade resources with each other. In some versions, trade must be equitable (1 for 1, 2 for 2 and so on), while other versions allow any ratio as long as at least 1 resource is exchanged by both parties.
+- At least one player must be the active player for a trade to occur.
+- There is no limit to the number of resources that can be traded per turn.
+
+## Influencing Voters
+
+- Three Vote Bank/Voter Cards will always remain open on the HQ Mat/board.
+- After influencing a Vote Bank/Voter Card (of 1, 2 or 3 voters), a player must place that many voters on the board in any zone.
+- Any influenced voters must be placed on the board by the end of the same turn. Failure to do so will lead to these voters being discarded.
+- The voters from a single Vote Bank/Voter Card cannot be split across zones. Voters obtained from any other means can be split.
+- An influenced Vote Bank/Voter Card is added to the discard pile and a new one is opened in its place.
+- Players can buy multiple Vote Bank/Voter Cards in their turn, as many as their resources allow.
+- If there aren't enough empty areas left in any one zone to place the influenced voters from a single Vote Bank/Voter Card, all voters from that card get discarded.
+
+## Forming a Majority
+
+Influenced voters are placed on the board in an attempt to form majorities and capture zones. Every zone has its own fixed number of voters. A player needs to influence more than 50% of the voters in a zone to form the majority in that zone. This required number of voters is denoted by the fraction on each zone.
+
+- A majority is formed in a zone immediately after its majority requirement is met.
+- After forming the majority in a zone, flip over as many voters as were required to form the majority, with the party symbol/'S' side up. Each majority voter with the symbol side up denotes 1 point earned.
+- Only the number of flipped majority voters count towards a player's final total in the game. Placing any more voters in a zone after forming a majority will not earn any additional points and will be kept with the blank side up.
+- Forming a majority also unlocks the Gerrymandering power.
+- The voters used to form a majority are immune to Gerrymandering, unless specified otherwise.
+
+## Breaking Majorities
+
+- A majority can be broken through certain powers and effects. If you no longer have enough voters to meet the majority requirement of a zone, your majority breaks. Flip over your remaining voters blank side up.
+
+## Gerrymandering
+
+Gerrymandering is an important strategy to slow opponents down by dispersing their votes.
+
+Forming a majority in a zone gives a player influence in all neighbouring zones (with shared boundary lines). The player can now gerrymander voters every turn, i.e., move around voters in adjoining zones.
+
+Players can gerrymander a voter into an adjoining zone, into their majority zone, or in between two adjoining zones.
+
+- Gerrymandering must happen between zones with a shared boundary line.
+- Players can only gerrymander non-majority voters, i.e., voters that are not used to form majorities (unless specified otherwise).
+- Players can gerrymander their own voters or an opponent's voters.
+- Every turn, players can gerrymander one voter per majority that they control.
+- Gerrymandering can only be used in zones with individual majorities, not coalitions (in versions that include coalitions).
+
+## Coalitions (In some versions)
+
+Two players can jointly form the majority in a zone and control it together by forming a coalition. The total of their combined votes must meet the majority requirement of that zone.
+
+- In a coalition, players can split the majority votes in any ratio, open to negotiation.
+- When a coalition is formed, the two players must exchange an Ideology Card with each other. This card must belong to the ideology that they hold the most cards of. This represents the ideological cost of compromise.
+- The gerrymandering power of a zone can't be used when a coalition is formed there.
+- Players can form coalitions with different parties in different zones. Ideology Cards must be traded for every new coalition that is formed.
+- A coalition will break when one of the two players declares withdrawal.
+- The Ideology Cards that were swapped will not be returned to the players. New coalitions can be formed in a zone if an old one collapses.
+- Withdrawal can be declared at any point during the game, with no cost.
+
+## Auction (In some versions)
+
+- Certain events in the game will initiate an auction.
+- You can bid up to as many resources as your resource cap during an auction. You do not need to hold the number of resources you bid. If you win the bid, you can pay off the bid amount in successive turns. The seller can keep track of how many resources you owe them.
+- However, you cannot make any purchases until you have completely paid off your bid.
+- If nobody places a bid for your auctioned item, discard it and receive the minimum bid value from the Public Reserve.
+
+## Ideologues
+
+- While answering an Ideology Card in their turn, players have two answers to choose from. Both answers belong to different ideologies, denoted by the colored band at the bottom of the card.
+- As players answer Ideology Cards, they build their ideologies over the course of the game and unlock Ideologue Powers.
+- There are 4 Ideologues in the game:
+  - The Capitalist
+  - The Showman/Showstopper
+  - The Supremo
+  - The Idealist
+- Gathering 4 Ideology Cards of a single Ideologue unlocks the corresponding Level 4 power. Similarly, collecting 6 Ideology Cards of a single Ideologue unlocks the corresponding Level 6 power.
+- Every Ideologue also has a passive power: for every 2 Ideology Cards of a single type, players get 1 corresponding resource at the start of their turn.
+- Ideologue Powers can be used in the same turn as they are unlocked.
+- All Ideologue Powers stack up. A player can access multiple powers belonging to different Ideologues at the same time.
+- Players can use their unlocked Ideologue Powers every turn for the rest of the game, as long as they hold the corresponding Ideology Cards.
+- Stick to your beliefs, as Level 6 Ideologue Powers are extremely powerful and can break majorities.
+
+## Volatile Zones/Areas
+
+- Each zone has one or more volatile zones marked with a black circle. Placing a voter peg in a volatile zone triggers a Headline Card.
+- A voter peg in a volatile zone stays there permanently. It cannot be converted, discarded, moved or gerrymandered even with Level 6 Ideologue Powers.
+- Players can either put their own voter in a volatile zone, or an opponent's voter, through gerrymandering.
+
+
+# Headline Cards
+
+Headline Cards are an array of opportunities and punishments that begin negotiations, boosting or hindering a player's gameplay.
+
+- After being triggered, Headlines are read at the end of the player's turn.
+- The Headline applies to the player whose voter peg is placed in the volatile zone.
+- Headlines apply for one turn only (unless specified otherwise).
+- Headlines cannot be Blocked or Reversed.
+- Headlines are resolved at the end of the current player's turn.
+- The word **"opponent"** refers to all players except you.
+- The word **"player"** refers to all players in the game, including you.
+
+> **Designer’s Note:** As 70% of Headline Cards are negative, it might be more beneficial to put an opponent’s voter in a volatile zone.
+
+---
+
+## Headline Cards Explained
+
+### **GREAT LEADER, BAD ECONOMY**
+For the rest of the game, every time you influence a 3 Voter Card, the player after you may move 1 of your non-majority voters to an adjacent zone.
+
+- Applies to both purchased or free cards.
+- Movement is in addition to Gerrymandering Rights.
+- Movement occurs **immediately after** influencing and **before** placing the influenced voters.
+
+---
+
+### **DOSTI BANI RAHE**
+Pick an opponent. In their next turn, they may use all your Gerrymandering Rights.
+
+- They use the Gerrymandering Rights you **have at that moment**, not at the time of triggering.
+- Can be used **in addition to** their own rights.
+
+---
+
+### **NERO'S GUESTS**
+Move any 3 voters **in** this zone OR **out** of this zone.
+
+- "This zone" refers to the zone where the voter was placed in order to trigger this Headline card.
+- You must either move all 3 voters into this zone OR move all 3 voters outside this zone. No combination allowed.
+- These may be your voters, your opponents' voters, or a mix.
+- Move voters **to/from adjacent zones**.
+
+---
+
+### **ON THE "HIGH" SEAS**
+Place 4 of your voters from the board on this card. They are held hostage. You may pay a resource to buy a voter back.
+
+- Rescued voters are placed on your player mat, and may be placed in any zone immediately.
+
+---
+
+### **A COWARD OR A JOURNALIST?**
+Starting from you, each player can donate 1 of their Ideology Cards to the opponent on their left. They receive 6 resources of their choice for doing so.
+
+- Clockwise order.
+- A player may donate even if others before them don’t.
+- You can donate the Ideology Card received from the previous player.
+
+---
+
+### **BLESSINGS OF PARENTS PAST**
+Draw 2 Voter Cards. Keep 1 and donate the other to an opponent. These Voter Cards are influenced for free immediately.
+
+- You place your influenced voters first, then your opponent places theirs.
+
+---
+
+### **PYTHONPOST**
+For the rest of the game, you have to pay an extra resource for every Conspiracy Card that you buy.
+
+---
+
+### **POLO RETREAT**
+Pick 2 players. They can use each other's unlocked Level 3 Ideologue Powers in addition to their own in their next turns. If either doesn't have unlocked Level 3 Powers, both can use any one Level 3 Power of their choice.
+
+- You can pick yourself.
+
+---
+
+### **SUBMERGED**
+Starting with you, every player can Gerrymander 1 majority or non-majority voter immediately. These voters cannot be placed into Volatile Areas.
+
+- Players can still Gerrymander again on their next turn as usual.
+
+---
+
+### **COUGH IT UP**
+All your opponents evict 1 voter. If a player breaks a majority, all other players gain 1 resource of their choice.
+
+- Starts with the player after you.
+
+---
+
+### **NEXT BILLION DATA POINTS**
+The next Conspiracy Card in the draw pile is up for grabs at no cost. All players must vote for who should receive it. They cannot vote for themselves. In case of a tie, vote again.
+
+- Voting is mandatory.
+- Winner gets the card for free and may keep it hidden.
+
+---
+
+### **KHAKI TERROR**
+Donate 1 resource of each type to the Public Reserve. You cannot make any purchases until you do so.
+
+- Includes Voter and Conspiracy Cards.
+- Use this card to track donated resources.
+- Discard the card and resources once all four are donated.
+- You may take other actions while collecting resources.
+
+---
+
+### **GROWING DISSENT**
+Starting this turn, for 1 round, gain 1 voter every time any opponent Gerrymanders your voters.
+
+- Lasts until every player has played one turn.
+- Gained voters are placed immediately.
+
+---
+
+### **A CALL FROM KARACHI**
+Draw the top 3 Conspiracy Cards. Keep 1 and shuffle the other 2 back in the deck. You don't need to reveal this card to other players. You must now auction the card off, starting at 2 resources.
+
+- Players may use any resources they have to bid.
+
+---
+
+### **STAY IN YOUR LIMITS**
+Every player converts 2 voters of the player to their left. Each player that doesn't break a majority gets 2 resources.
+
+- Starts with you.
+- Breaking majority is optional.
+- Converting non-majority voters gets you 2 resources.
+
+---
+
+### **IT RAID**
+You will not receive the resources denoted on your next Ideology Card.
+
+- You still get the card and can use powers as usual.
+
+---
+
+### **MANSPLAINING**
+Pick an opponent. They will receive the same resources you receive in your next turn.
+
+- Includes resources from any source: Ideology Cards, Powers, etc.
+
+---
+
+### **A TRIP TO GOALPARA**
+The next 3 players after you can select and discard an open Voter Card. They receive the resources shown on it. New Voter Cards will only open after all 3 are discarded.
+
+- Players pick in order.
+- No replacements until all three are gone.
+
+---
+
+### **OXY-MORONS**
+Starting from your left, each player must either: Discard 1 of their own voters. OR Pick an opponent to gain a free voter.
+
+- Applies to all players.
+- You may discard majority or non-majority voters.
+
+---
+
+### **TOO MUCH FREEDOM**
+All Voter Cards cost any 1 extra resource in your next turn.
+
+- Applies only to your next turn.
+
+## Sure! Here's the **Markdown code** version of the **Conspiracy Cards** rules and details you shared, formatted neatly for docs, wikis, or manuals:
+
+
+# Conspiracy Cards
+
+Conspiracy Cards offer a variety of offensive and strategic maneuvers that players can purchase. They can cost 4 or 5 resources, denoted by the figure on the back of the card. They can be paid for with any combination of resources.
+
+- Conspiracy Cards can be used immediately or saved for later.
+- They can also be played after an opponent's turn ends and before the next player's turn starts. However, they cannot be played while another player's turn is ongoing (**except** Block! and Reverse!).
+- Players can buy multiple Conspiracy Cards in their turn, as many as resources allow.
+- There is no limit on the number of Conspiracy Cards a player can hold.
+- Players can use multiple Conspiracy Cards in one go.
+
+---
+
+## Conspiracy Cards Explained
+
+### **CHAI-PAANI** (1/2)
+Pick an opponent and pick a resource. Whenever they spend that resource, it comes to you instead of going to the Public Reserve.
+
+- If another such card is played, this one will get discarded.
+- Only leeches resources spent on voters and power cards.
+- Trades with other players or the bank are not leeched.
+- If a second 'Chai-Paani' is applied on the same player, the first is deactivated.
+
+---
+
+### **JUMLA**
+This is an extra Ideology Card of your choice. Opponents can take this card by paying you as many resources as the Ideologue level this card is on.
+
+- Use it by tucking under your player mat under a chosen Ideologue.
+- You may move it to a different Ideologue at the end of your turn.
+- Opponents can purchase it by paying resources equal to the level it occupies. You cannot decline this.
+
+---
+
+### **CULT-IVATING OBEDIENCE**
+Pick one of your majorities. It can't be affected by your opponents.
+
+- That majority is protected while this card is with you.
+- Opponents can steal this card by converting 3 of their voters to yours.
+
+---
+
+### **RESETTLEMENT**
+When you place voters from the next two 2 Voter Cards, you may discard that many non-majority voters from the same zone.
+
+- Stays in play until used twice.
+- Use across same or different turns.
+
+---
+
+### **NOT ONE OF US**
+Pick a zone and an opponent. They can't place voters in that zone in their next turn.
+
+- Affects only one opponent for one turn.
+- Discard the card after use.
+
+---
+
+### **ACCENT ACCIDENT**
+Flip one of your own Ideology Cards.
+
+- Choose which card to flip.
+- Place it under the same Ideologue on your mat.
+
+---
+
+### **SHOW ME YOUR DOCUMENTS**
+Discard a voter in up to 4 zones where you have Gerrymandering Rights.
+
+- May discard majority or non-majority voters.
+- Only zones where you hold rights.
+
+---
+
+### **UNTIL PROVEN INNOCENT**
+Discard 5 non-majority voters and place them on this card. Players may pay you 1 resource to buy them back.
+
+- Voters may be from any player.
+- Each voter costs 1 resource to buy back and is placed immediately.
+
+---
+
+### **BHARAT JODO YATRA**
+At the end of your turn, evict 5 voters and place them on any opponent's Player Mats.
+
+- Evicted voters may be majority or non-majority.
+- Opponent may place them anywhere in their next turn.
+
+---
+
+### **SUPERSTAR CAMPAIGNER**
+For the rest of the game, if there are any open 1 Voter Cards at the end of your turn, influence them for free immediately.
+
+- Applies to all open 1 Voter Cards at end of your turn.
+- Also applies to 1 Voter Cards that open up during your turn.
+
+---
+
+### **SLUMDOG ZILLIONAIRE**
+Swap a non-majority voter with another, up to 3 times.
+
+- Swaps can involve any players.
+- You may be one of the players.
+
+---
+
+### **NAYI SOCH**
+The next 3 voters you Gerrymander will get discarded instantly.
+
+- Mark discarded voters by placing them on this card.
+- Applies only to next 3 Gerrymanders.
+
+---
+
+### **FOUR PILLARS** (1/4)
+Get any 4 resources of your choice.  
+**OR** Collect and use 3 Four Pillars cards to select a '6/11' zone and convert all its voters into yours.
+
+- There are 4 copies of this card in the deck.
+- Playing 3 copies together makes them immune to Reverse/Ditto/Deflect/Block.
+
+---
+
+### **BLOCK**
+Play this immediately out of turn when an opponent plays a Conspiracy Card to negate its effect.  
+**OR** Discard an open Conspiracy Card or Headline Card.
+
+- One-time use.
+- Can only block revealed Conspiracy Cards.
+
+---
+
+### **REVERSE**
+When a player uses a Conspiracy Card on you, you may play this card immediately to reverse its effect back to them.
+
+- One-time use.
+- Redirects the power back to its owner.
+
+---
+
+### **MAHA ALLIANCE**
+You may use all your Level 3 Ideologue Powers twice this turn.
+
+- Only applies to unlocked Level 3 powers.
+````
+
+Let me know if you want this split into card-by-card Markdown files, added to a Notion doc, or converted to any other format like JSON or HTML!
+
+## Scoring and End-Game
+
+- The game ends when a majority has been formed in every zone. The player with the maximum number of majority votes wins. Congratulations, and good luck with your new world order.
+- Non-majority votes do not add to a player's final tally.
+
+### End Game Clause
+- If every single vote on the board has been cast, the final round of the game begins, starting with the player that cast the final vote. The rest of the players now have one final turn each to form or collapse coalitions, use Conspiracy Cards, negotiate, etc.
+
+*Note - During the end game, if there aren't enough empty spaces left on the board to place a group of influenced voters from a single Vote Bank Card, those voters get discarded.*
+
+## Ideologue Powers Explained
+
+**Passive:** Every Ideologue has a passive resource input power. For every 2 Ideology Cards of a single type, players earn 1 resource corresponding to that Ideology. For instance, having 2 'The Capitalist' cards will get a player 1 free 'Funds' resource each turn. Having 4 'The Capitalist' cards will get them 2 free 'Funds' resources every turn and so on.
+
+Players get these additional resources when they answer the Ideology Card at the start of their turn. Players keep receiving free resources every turn as long as they hold the corresponding Ideology Cards.
+
+### The Capitalist
+
+**LEVEL 3 - Open Market:** Every turn, trade 1 resource with the Public Reserve for any 2 resources of your choice.
+- A player must take both resources from the Public Reserve at the same time.
+
+**LEVEL 5 - Land Grab:** Three times per turn, evict up to any 1 voters from the board and send them back to their player's hand (including majority voters).
+- An opponent whose voters are evicted through this power can place the voters back anywhere on the board in their next turn. If that player fails to place their voters in their next turn, the voters are discarded.
+- If a player evicts their own voters, they can place them back anywhere on the board right away.
+- Voters in volatile zones cannot be evicted, converted, discarded, or gerrymandered.
+
+### The Showman/Showstopper
+
+**LEVEL 3 - Echo Chamber:** Get +1 voter for every Vote Bank Card you influence, up to 3 votes per turn.
+- You get an extra voter for every Vote Bank Card you influence.
+- You can get an extra voter on a maximum of 3 unique Votebank Cards, every turn.
+
+**LEVEL 5 - You can Gerrymander 2 voters instead of 1 for every
+zone where you have Gerrymandering Rights
+(including majority voters).
+- The 2 voters you Gerrymander per majority can
+belong to the same player or to different players.
+- You cannot use this power if you don’t have
+Gerrymandering Rights in any zone.
+- Majority voters can be Gerrymandered. Voters in
+Volatile Areas cannot be Gerrymandered.
+
+### The Supremo
+
+**LEVEL 3 - Donations:** Every turn, snatch up to 2 resources from other players.
+- You can use this power to snatch resources, i.e., take resources from other players without giving anything in return.
+- You can snatch 2 resources from the same player or 1 resource each from 2 different players.
+
+**LEVEL 5 - Civil Disobedience:** Twice per turn, spend 1 resource to choose and discard an opponent's voter. You can discard up to 1 voters (including majority voters).
+- You can pay 1 resource of your choice to discard 1 vote belonging to an opponent. You can do this twice every turn.
+- Voters in volatile zones cannot be evicted, converted, discarded, or gerrymandered.
+
+### The Idealist
+
+**LEVEL 3 - Helping Hands
+Twice per turn, get 1 resource discount on any purchase.
+- By using a resource discount on a purchase, you can pay any
+1 resource less on that purchase. These purchases only include
+influencing Voter Cards and buying Conspiracy Cards. Any
+other actions with a resource cost cannot be discounted, unless
+specified otherwise.
+- You may choose which resource(s) to discount while
+influencing a Voter Card.
+- You can split your discounts on 2 purchases, or combine them
+on the same purchase.
+
+**LEVEL 5 - Tough Love:
+Once per turn, spend 2 Trust resources + any 2 resources to
+convert 2 of an opponent’s voters into yours (including majority
+voters).
+- The 2 converted voters must belong to the same player in the
+same zone.
+- You cannot use this power without paying the resource cost.
+- This power’s cost can be discounted using The Idealist Level 3
+Power.
+- Majority voters can be converted. Voters in
+Volatile Areas cannot be converted.
