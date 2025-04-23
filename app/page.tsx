@@ -265,7 +265,6 @@ export default function Home() {
                 ) : (
                   <motion.div 
                     className="flex items-start gap-3"
-                    layout
                   >
                     <motion.div 
                       className="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center"
