@@ -1,21 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
 import { DataAPIClient } from "@datastax/astra-db-ts";
 import { OpenAI } from "openai";
-import fs from 'fs/promises';
-import path from 'path';
-// Initialize OpenAI client with your API key
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-});
-
-const client = new DataAPIClient(process.env.ASTRA_DB_APPLICATION_TOKEN);
-
-const db = client.db(process.env.ASTRA_DB_API_ENDPOINT || "", {
-  namespace: process.env.ASTRA_DB_NAMESPACE,
-});
 
 export async function POST(req: NextRequest) {
   try {
+    const openai = new OpenAI({
+      apiKey: process.env.OPENAI_API_KEY,
+    });
+
+    const client = new DataAPIClient(process.env.ASTRA_DB_APPLICATION_TOKEN);
+
+    const db = client.db(process.env.ASTRA_DB_API_ENDPOINT || "", {
+      namespace: process.env.ASTRA_DB_NAMESPACE,
+    });
     const { messages } = await req.json();
     const latestMessage = messages[messages.length - 1]?.content;
 
@@ -117,11 +114,11 @@ export async function POST(req: NextRequest) {
         "Transfer-Encoding": "chunked",
       },
     });
-  } catch (error) {
+  } catch (error: any) {
     console.log("Error in POST:: ", error);
     return NextResponse.json(
       { message: "Internal Server Error", error: error },
-      { status: 500 }
+      { status: error?.status || 500 }
     );
   }
 }
