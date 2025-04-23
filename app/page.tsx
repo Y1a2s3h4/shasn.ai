@@ -277,9 +277,6 @@ export default function Home() {
                     </motion.div>
                     <motion.div 
                       className="flex-1 bg-gray-100 rounded-lg p-4 max-w-[80%] text-black"
-                      initial={{ scale: 0.9 }}
-                      animate={{ scale: 1 }}
-                      transition={{ duration: 0.2 }}
                     >
                       <div className="prose prose-sm max-w-none">
                         {message.content === "" && loading ? (
