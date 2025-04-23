@@ -236,9 +236,19 @@ export default function Home() {
               <motion.div 
                 key={message.id} 
                 className="flex flex-col gap-4"
-                initial={{ opacity: 0, x: message.role === "user" ? 20 : -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.3, ease: "easeOut" }}
+                initial={false} // Prevent initial animation for existing messages
+                animate={{ 
+                  opacity: 1, 
+                  x: 0,
+                  transition: {
+                    duration: 0.3,
+                    ease: "easeOut"
+                  }
+                }}
+                // Only apply entry animation for new messages, not streaming updates
+                {...(message.content === "" && loading ? {} : {
+                  initial: { opacity: 0, x: message.role === "user" ? 20 : -20 }
+                })}
               >
                 {message.role === "user" ? (
                   <motion.div 
