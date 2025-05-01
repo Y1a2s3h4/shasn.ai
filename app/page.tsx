@@ -57,17 +57,21 @@ export default function Home() {
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    if (messagesEndRef.current) {
+      const container = messagesEndRef.current;
+      container.scrollTop = container.scrollHeight;
+    }
   };
+
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!prompt.trim()) return;
-    
+
     // Create user message
     const userMessage = {
       id: Date.now().toString(),
@@ -83,8 +87,12 @@ export default function Home() {
     };
 
     // Update messages state first (using functional update to ensure we have latest state)
-    setMessages(prevMessages => [...prevMessages, userMessage, loadingMessage]);
-    
+    setMessages((prevMessages) => [
+      ...prevMessages,
+      userMessage,
+      loadingMessage,
+    ]);
+
     // Clear input field
     setPrompt("");
     setLoading(true);
@@ -92,7 +100,7 @@ export default function Home() {
     try {
       // Store the current messages plus the new user message to send to API
       const currentMessages = [...messages, userMessage];
-      
+
       // Call the API route
       const response = await fetch("/api/openai", {
         method: "POST",
@@ -125,8 +133,8 @@ export default function Home() {
           assistantMessage += chunk;
 
           // Update the loading message with the current content
-          setMessages(prevMessages =>
-            prevMessages.map(msg =>
+          setMessages((prevMessages) =>
+            prevMessages.map((msg) =>
               msg.id === loadingMessage.id
                 ? { ...msg, content: assistantMessage }
                 : msg
@@ -136,9 +144,9 @@ export default function Home() {
       }
 
       // Replace the loading message with the complete assistant message
-      setMessages(prevMessages =>
+      setMessages((prevMessages) =>
         prevMessages
-          .filter(msg => msg.id !== loadingMessage.id)
+          .filter((msg) => msg.id !== loadingMessage.id)
           .concat({
             id: (Date.now() + 2).toString(),
             content: assistantMessage,
@@ -166,12 +174,18 @@ export default function Home() {
   };
 
   return (
-    <motion.div className={`grid grid-cols-1 ${messages.length === 0 ? "md:grid-cols-[50%_50%]" : ""} grid-rows-1 items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]`}
+    <motion.div
+      className={`grid grid-cols-1 ${
+        messages.length === 0 ? "md:grid-cols-[50%_50%]" : ""
+      } grid-rows-1 items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]`}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <motion.section className={`${messages.length === 0 ? "hidden md:flex" : "hidden"} justify-center items-center h-full w-full p-4 md:p-0`}
+      <motion.section
+        className={`${
+          messages.length === 0 ? "hidden md:flex" : "hidden"
+        } justify-center items-center h-full w-full p-4 md:p-0`}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
@@ -188,7 +202,10 @@ export default function Home() {
         transition={{ duration: 0.5 }}
         className="flex items-center justify-center h-full w-full p-4"
       >
-        <motion.div className={`w-full ${messages.length === 0 ? "max-w-[550px]" : "max-w-[850px]"} flex flex-col gap-7 items-center justify-center`}
+        <motion.div
+          className={`w-full ${
+            messages.length === 0 ? "max-w-[550px]" : "max-w-[850px]"
+          } flex flex-col gap-7 items-center justify-center`}
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -224,38 +241,46 @@ export default function Home() {
               )
             )}
           </motion.h1>
-                    
-          <motion.div 
-            ref={messagesEndRef} 
-            className={`chatContainer ${messages.length === 0 ? "hidden" : "w-full h-full min-h-[500px] max-h-[500px] overflow-y-auto flex flex-col gap-4 p-4"}`}
+
+          <motion.div
+            ref={messagesEndRef}
+            className={`chatContainer ${
+              messages.length === 0
+                ? "hidden"
+                : "w-full h-full min-h-[500px] max-h-[500px] overflow-y-auto flex flex-col gap-4 p-4"
+            }`}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4 }}
           >
             {messages.map((message) => (
-              <motion.div 
-                key={message.id} 
+              <motion.div
+                key={message.id}
                 className="flex flex-col gap-4"
-                initial={false} // Prevent initial animation for existing messages
-                animate={{ 
-                  opacity: 1, 
+                animate={{
+                  opacity: 1,
                   x: 0,
                   transition: {
                     duration: 0.3,
-                    ease: "easeOut"
-                  }
+                    ease: "easeOut",
+                  },
                 }}
                 // Only apply entry animation for new messages, not streaming updates
-                {...(message.content === "" && loading ? {} : {
-                  initial: { opacity: 0, x: message.role === "user" ? 20 : -20 }
-                })}
+                initial={
+                  message.content === "" && loading
+                    ? false
+                    : {
+                        opacity: message.role === "user" ? 0 : 1,
+                        x: message.role === "user" ? 20 : 0,
+                      }
+                }
               >
                 {message.role === "user" ? (
-                  <motion.div 
+                  <motion.div
                     className="flex items-start gap-3 justify-end"
                     layout
                   >
-                    <motion.div 
+                    <motion.div
                       className="flex-1 bg-blue-500 rounded-lg p-4 max-w-[80%]"
                       initial={{ scale: 0.9 }}
                       animate={{ scale: 1 }}
@@ -263,7 +288,7 @@ export default function Home() {
                     >
                       <p className="text-sm text-white">{message.content}</p>
                     </motion.div>
-                    <motion.div 
+                    <motion.div
                       className="w-8 h-8 rounded-full bg-gray-500 flex items-center justify-center"
                       initial={{ scale: 0 }}
                       animate={{ scale: 1 }}
@@ -273,20 +298,16 @@ export default function Home() {
                     </motion.div>
                   </motion.div>
                 ) : (
-                  <motion.div 
-                    className="flex items-start gap-3"
-                  >
-                    <motion.div 
+                  <motion.div className="flex items-start gap-3">
+                    <motion.div
                       className="w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center"
                       initial={{ scale: 0 }}
                       animate={{ scale: 1 }}
                       transition={{ duration: 0.2 }}
                     >
-                      <span className="text-white text-sm">AI</span>
+                      <span className="text-white text-sm">S</span>
                     </motion.div>
-                    <motion.div 
-                      className="flex-1 bg-gray-100 rounded-lg p-4 max-w-[80%] text-black"
-                    >
+                    <motion.div className="flex-1 bg-gray-100 rounded-lg p-4 max-w-[80%] text-black">
                       <div className="prose prose-sm max-w-none">
                         {message.content === "" && loading ? (
                           <div className="flex items-center gap-2">
